@@ -1,0 +1,15 @@
+# It is necessary installed pycryptodome
+
+# It is necessary install on windows VCForPython27.msi
+# windows command to install
+python -m pip install pycryptodome
+
+# linux and mac command to install
+python pip install pycryptodome
+
+#variable environnement on windows
+#python 3
+C:\Users\wictor\AppData\Local\Programs\Python\Python37-32\
+#django-admin
+C:\Users\wictor\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\django\bin
+
