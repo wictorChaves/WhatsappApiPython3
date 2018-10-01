@@ -1,6 +1,6 @@
 # WhatsappApiPython3
 
-Project Python to generate a database with messages of Whatsapp Web using a extension of Google Chrome.
+Project Python to manager a database with messages of Whatsapp Web using a [extension of Google Chrome](https://github.com/wictorChaves/WhatsappApiExtension).
 
 # Dependencies
 
@@ -23,3 +23,4 @@ Python 3
 django-admin
 
     C:\Users\wictor\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\django\bin
+
