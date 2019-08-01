@@ -30,8 +30,10 @@ class ManageMessage:
         if 'clientUrl' in message and 'mediaKey' in message and 'type' in message:
             try:
                 self._Decrypter.getMediaContent(message['clientUrl'], message['mediaKey'], message['type'])
-                if(message['type'] == "image"):
+                if(message['type'] == "sticker"):
                     self._Decrypter.salvar('C:\\Users\\wictor\\Documents\\Wictor\\Workspace\\Github\\WhatsappApiPython3\\midias\\' + message['id'] +'.jpg')
+                if (message['type'] == "image"):
+                    self._Decrypter.salvar('C:\\Users\\wictor\\Documents\\Wictor\\Workspace\\Github\\WhatsappApiPython3\\midias\\' + message['id'] + '.jpg')
                 message['filebase64'] = self._Decrypter.getBase64File()
                 return message
             except HTTPError as e:

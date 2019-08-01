@@ -46,8 +46,8 @@ class Decrypter():
             return '576861747341707020417564696f204b657973'
         if tipo == "video":
             return '576861747341707020566964656f204b657973'
+        if tipo == "sticker":
+            return '576861747341707020496d616765204b657973'
         if tipo == "document":
             return '576861747341707020446f63756d656e74204b657973'
-        if tipo == "sticker":
-            return ''
         return None
