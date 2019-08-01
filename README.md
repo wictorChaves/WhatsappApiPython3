@@ -6,7 +6,7 @@ Project Python to manager a database with messages of Whatsapp Web using a [exte
 
 # Dependencies
 
-If you are using windows, it is necessary install VCForPython27.msi
+If you are using windows, it is necessary install [VCForPython27.msi](https://github.com/wictorChaves/WhatsappApiPython3/raw/master/complement/VCForPython27.msi)
 
 **Windows command to install**
 
